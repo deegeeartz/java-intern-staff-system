@@ -1,0 +1,26 @@
+Running The Program
+PLEASE NOTE:
+To access the software once it starts running you need authorised access:
+USERNAME: dickson
+PASSWOD: hiit
+
+	Import the Project
+-	Open NetBeans IDE.
+-	Select "File" from the menu and choose "Open Project."
+-	Browse to the location where you have saved the "internfinal" project file is located and select it.
+-	Click "Open" to import the project into NetBeans IDE.
+
+	Configure Database Connection
+-	Make sure you have MySQL Database Server 5.7 or a higher version installed on your system.
+-	Create a new database schema named "interns" in MySQL.
+-	Open the project in NetBeans IDE and locate the database configuration file (e.g., "db.properties" or "config.properties").
+-	Edit the file to update the database connection details, including the database URL, username, and password, to match your MySQL configuration.
+-	In the interns project under “source packages > database> dbConnection.java”, change the password in “  private static  final  String password = "Starbaby@8";” to your database password if there is none leave it as blank i.e password = “”;
+-	If the database has a name then change the name in “private static  final  String username = "root";” else just leave it as “root”.
+-	Save the changes.
+
+	Build and Run the Project
+-	In NetBeans IDE, right-click on the project name "internfinal" in the Projects panel.
+-	Select "Build" from the context menu to compile the project.
+-	Once the build is successful, right-click on the project name again and select "Run" to execute the application.
+
